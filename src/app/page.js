@@ -1,31 +1,7 @@
 export default function page() {
 	return (
 		<div>
-			<hr className='border-4 border-[#FF7500]' />
-			<div className='bg-white '>
-				<div className='container mx-auto px-5 flex justify-between  items-center w-full  p-10'>
-					<a href=' #'>
-						<img src='./logo.svg' alt='logo' />
-					</a>
-					<nav className='flex text-black gap-10 items-center'>
-						<a href='#' className='hover:text-blue-700'>
-							BOSH SAHIFA
-						</a>
-						<a href='#' className='hover:text-blue-700'>
-							KITOBLAR{' '}
-						</a>
-						<a href='#' className='hover:text-blue-700'>
-							AKSIYALAR
-						</a>
-						<a href='#' className='hover:text-blue-700'>
-							KONTAKTLAR
-						</a>
-						<button className='btn bg-[#FF7500] px-5 py-2 w-60 rounded-md hover:text-amber-300 hover:bg-amber-900'>
-							Ro'yxatdan o'tish
-						</button>
-					</nav>
-				</div>
-			</div>
+			
 			<div className='bg-[#252420]'>
 				<div className='container mx-auto px-5 flex  justify-between'>
 					<div className='w-[400px] h-[350px] '>
@@ -97,89 +73,7 @@ export default function page() {
 					</div>
 				</div>
 			</div>
-			<div className='container mx-auto mt-10 px-5'>
-				<div className='flex justify-between items-center'>
-					<a href='#'>
-						<img src='./logo.svg' alt='' />
-					</a>
-					<div className='flex gap-1'>
-						<a href='https://t.me/dasturchi_aa'>
-							<img src='./telegram.svg' alt='telegram' />
-						</a>
-						<a href='https://facebook.com'>
-							<img src='./facebook.svg' alt='telegram' />
-						</a>
-						<a href='https://instagram.com/abdulaziz2o_o7'>
-							<img src='./instagram.svg' alt='telegram' />
-						</a>
-					</div>
-				</div>
-				<hr className='border mt-5 mb-5 border-black' />
-				<div className='flex text-black justify-between'>
-					<div className='flex flex-col gap-1'>
-						<a href='#' className='hover:text-blue-700'>
-							Bosh sahifa
-						</a>
-						<a href='#' className='hover:text-blue-700'>
-							Kitoblar
-						</a>
-						<a href='#' className='hover:text-blue-700'>
-							Aksiyalar
-						</a>
-						<a href='#' className='hover:text-blue-700'>
-							Yangiliklar
-						</a>
-						<a href='#' className='hover:text-blue-700'>
-							Kontaktlar
-						</a>
-					</div>
-					<div className='flex flex-col gap-1'>
-						<a href='#' className='hover:text-blue-700'>
-							Ilmiy nashrlar
-						</a>
-						<a href='#' className='hover:text-blue-700'>
-							Ilmiy-ommabop nashrlar
-						</a>
-						<a href='#' className='hover:text-blue-700'>
-							Ma’rifiy nashrlar
-						</a>
-						<a href='#' className='hover:text-blue-700'>
-							Lug’atlar
-						</a>
-						<a href='#' className='hover:text-blue-700'>
-							Adabiy-badiiy nashrlar
-						</a>
-						<a href='#' className='hover:text-blue-700'>
-							Abituriyentlar uchun
-						</a>
-						<a href='#' className='hover:text-blue-700'>
-							Bolalar uchun
-						</a>
-					</div>
-					<div className='flex flex-col gap-1'>
-						<a href='#' className='hover:text-blue-700'>
-							Ko’p so’raladigan savollar
-						</a>
-						<a href='#' className='hover:text-blue-700'>
-							Yetkazib berish haqida
-						</a>
-						<a href='#' className='hover:text-blue-700'>
-							To’lov usullari haqida
-						</a>
-					</div>
-					<div className='flex flex-col gap-1'>
-						<a href='#' className='hover:text-blue-700'>
-							Bo’sh ish o’rinlari
-						</a>
-						<a href='#' className='hover:text-blue-700'>
-							Biz bilan bog’lanish
-						</a>
-						<a href='#' className='hover:text-blue-700'>
-							Maxfiylik nizomi
-						</a>
-					</div>
-				</div>
-			</div>
+			
 		</div>
 	)
 }
